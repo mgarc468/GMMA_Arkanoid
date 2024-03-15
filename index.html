@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de Arkanoid</title>
+</head>
+<body id="imgFondo">
+    <h1>Juego de Arkanoid</h1>
+    <table>
+        <tr>
+            <td colspan="8" id="Marcador"><span id="LetraRoja">1 UP HIGH SCORE </span><br id="marcador">00 50000</br></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+            <td id="DiseñoCeldasGen"></td>
+        </tr>
+        <tr>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+            <td id="ColorFila2"></td>
+        </tr>
+        <tr>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+            <td id="ColorFila3"></td>
+        </tr>
+        <tr>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+            <td id="ColorFila4"></td>
+        </tr>
+        <tr>
+            <td id="ColorFila5"></td>
+            <td id="ColorFila5"></td>
+            <td id="ColorFila5"></td>
+            <td id="DiseñoCeldasVac" rowspan="2"></td>
+            <td id="ColorFila5"></td>
+            <td id="DiseñoCeldasVac" colspan="2"></td>
+            <td id="ColorFila5"></td>
+        </tr>
+        <tr>
+            <td id="ColorFila6"></td>
+            <td id="DiseñoCeldasVac" rowspan="2"></td>
+            <td id="ColorFila6"></td>
+            <td id="ColorFila6"></td>
+            <td id="DiseñoCeldasVac" colspan="2"></td>
+            <td id="ColorFila6"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td> 
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"><div id="bola"></div></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+        <tr>
+            <td id="DiseñoCeldasVac"></td>
+            <td colspan="2" id="barrita"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+            <td id="DiseñoCeldasVac"></td>
+        </tr>
+    </table>
+</body>
+</html>

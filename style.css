@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Retro;
+    src: url(font/RETROTECH.ttf) format(truetype);
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 52px;
+    color: white;
+    font-family: Retro;
+}
+table{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    background-color:rgb(62, 59, 59);
+    border: 5px groove RGB(237, 175, 5);
+    text-align:center;
+    margin: auto;
+}
+td, tr{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(62, 59, 59);
+    border-radius: 5px;
+    border: 5px groove gray;
+}
+#imgFondo{
+    background-image: url("img/fondoretro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+#LetraRoja{
+    color: red;
+    font-size: 40px;
+    background-color:black;
+}
+#Marcador{
+    font-family: Retro;
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    border-bottom-color: white;
+    font-size: 32px;
+    margin-right: 50px;
+    
+}
+#DiseñoCeldasGen{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+}
+#ColorFila1{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(62, 59, 59);
+}
+#ColorFila2{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(239, 5, 5);
+}
+#ColorFila3{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(239, 216, 5);  
+}
+#ColorFila4{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: blue;
+}
+#ColorFila5{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: violet;
+}
+#ColorFila6{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: green;
+}
+#DiseñoCeldasVac{
+    Border: 0px;
+    Border-radius: 0;
+}
+#barrita{
+    background: url(img/barra.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    Border: 0px;
+    Border-radius: 0;
+}
+#bola{
+    border-radius: 100%;
+    border-color: white;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
